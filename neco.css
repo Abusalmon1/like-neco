@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first {
+  margin-bottom: 50px;
+  background-color: #468d46;
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.first img {
+  width: 20%;
+  margin-left: 10%;
+}
+
+.first h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 40px;
+  color: white;
+  margin-left: 9%;
+}
+
+.first h3 {
+  color: white;
+  padding: 70px;
+  margin-left: 5%;
+}
+
+.first ul {
+  padding: 30px;
+  margin-left: 15%;
+  color: white;
+  gap: 10px;
+}
+
+.first p {
+  margin-top: 15em;
+  padding: 10px;
+}
+
+.first p a {
+  color: white;
+  margin-left: 19%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sec {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+  background-color: white;
+}
+
+.sec h2 {
+  padding: 10%;
+  text-align: center;
+}
+
+.sec form {
+  background-color: white;
+  width: 50%;
+  padding-left: 12px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  -webkit-box-shadow: 2px 2px whitesmoke;
+          box-shadow: 2px 2px whitesmoke;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.sec input {
+  padding: 8px 8px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  width: 95%;
+  outline-color: #72728d;
+  margin: auto;
+  font-size: 20px;
+}
+
+.sec .blue {
+  padding: 15px 10px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  width: 95%;
+  background-color: #18d486;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+}
+
+.sec h5 {
+  font-size: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.sec .blur {
+  padding: 15px 10px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  width: 95%;
+  background-color: #0c0c61;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+}
+
+.sec p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+.sec p a {
+  font-size: 12px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sec .green {
+  font-size: 17px;
+  color: green;
+  padding: 9px;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=neco.css.map */
